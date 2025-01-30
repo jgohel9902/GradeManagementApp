@@ -19,7 +19,7 @@ A simple web-based Grade Manager that allows users to **add, remove, update, and
 ## Project Structure  
 📂 GradeManagerApp
 │── index.html # Main HTML structure
-│── styles.css # Styling (optional)
+│── styles.css # Styling 
 │── script.js # JavaScript logic for grade management
 
 Technologies Used
