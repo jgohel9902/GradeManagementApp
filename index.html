@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">=
+    <title>Grade Manager App</title>
+    <link rel = "stylesheet" href = "styles.css">
+    
+    
+</head>
+<body>
+    <h1>Grade Manager App</h1> 
+    <label for="enterGrade">Enter the grade (between 0-100): </label>
+    <input type="number" id="enterGrade" min = "0" max = "100">
+<br>
+<br>
+    <button onClick="addGrades()">Add Grades</button>
+    <button onClick="removeGrades()">Remove Grades</button>
+    <button onClick="UpdateGrades()">Update Grades</button>
+    <button onClick="showGradeSummary()">Show summary of grades</button>
+    <br>
+    <h2>Grade List</h2>
+    <div id="gradeList"></div>
+
+    <h2>Summary</h2>
+    <div id="Summary"></div>
+
+    <h2>Error Messages</h2>
+    <div id="errorMessages"></div>
+    <script src = "script.js"></script>
+</body>
+</html>
